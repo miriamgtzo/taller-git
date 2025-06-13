@@ -1,5 +1,12 @@
 #include <stdio.h>
+#include "funciones.c"
 
+
+int main (){
+    printf("hhola mundo");
+    int *a = NULL;
+    *a = 100;
+}
 int suma (int n) {
     if (n == 0) return 0;
     return n + suma (n-1);
